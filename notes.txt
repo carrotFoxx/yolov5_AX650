@@ -1,0 +1,1 @@
+python train.py --img 640 --batch 16 --epochs 1 --data drones.yaml --weights yolov5s.pt --device cpu

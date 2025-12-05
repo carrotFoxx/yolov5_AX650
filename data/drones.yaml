@@ -1,0 +1,13 @@
+train: ../datasets/drones/train/images
+val: ../datasets/drones/valid/images
+test: ../datasets/drones/test/images
+
+nc: 4
+names: ['bird', 'fixed-wing UAV', 'hexocopter', 'quadcopter']
+
+roboflow:
+  workspace: drone-04ktc
+  project: bpla-dataset
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/drone-04ktc/bpla-dataset/dataset/3
