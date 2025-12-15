@@ -1,6 +1,6 @@
 import onnx
-onnx.utils.extract_model('yolov5s.onnx',
-                         'yolov5s_surgeon_v2.onnx',
+onnx.utils.extract_model('yolov5m_bpla.onnx',
+                         'yolov5m_bpla_cutted.onnx',
                          ['images'],
                          ['conv2d_57',
                           'conv2d_58',
