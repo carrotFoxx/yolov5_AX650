@@ -1,3 +1,5 @@
 python3 train.py --img 640 --batch 16 --epochs 1 --data lamp.yaml --weights yolov5s.pt --device cpu
 
 python3 export.py --weights yolov5s_bpla.pt --imgsz 640 --device=cpu --verbose --opset 11 --include 'onnx' --simplify
+
+python3 export.py --weights lamp.pt --imgsz 640 --device=cpu --verbose --opset 11 --include 'onnx' --simplify
